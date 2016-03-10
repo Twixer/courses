@@ -200,9 +200,15 @@ NAs introduced by coercion
 > as.logical(x)
 [1] NA NA NA
 > as.complex(x)
+<<<<<<< HEAD
 [1] NA NA NA
 Warning message:
 NAs introduced by coercion 
+=======
+[1] NA NA NA NA
+Warning message:
+NAs introduced by coercion
+>>>>>>> 3398a7eea5def7e51c100b6e7e65f31f24bbb2a4
 ```
 
 ---
